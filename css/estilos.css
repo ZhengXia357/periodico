@@ -24,6 +24,10 @@
     color: aquamarine;
 }
 
+.rojo {
+    color: indianred;
+}
+
 article {
     border: 2px purple dashed;
     margin: 10px;
