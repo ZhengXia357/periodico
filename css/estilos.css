@@ -16,8 +16,32 @@
     color: green;
 }
 
+#economia h1 {
+    color: darkturquoise;
+}
+
+#salud h1 {
+    color: rgb(174, 0, 209);
+}
+
+#tecnologia h1 {
+    color: rgb(248, 150, 69);
+}
+
+#tecnologia h1 {
+    color: rgb(46, 202, 150);
+}
+
 .cursiva {
     font-style: italic;
+}
+
+.verde {
+    color: aquamarine;
+}
+
+.rojo {
+    color: indianred;
 }
 
 article {
@@ -26,6 +50,41 @@ article {
     padding: 20px;
 }
 
-article h2 {
+article h2, h1 {
     text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: palegreen;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    color: lawngreen;
+    font-size: 25px;
+}
+
+body {
+    display: grid;
+    grid-template-columns: auto 1000px auto;
+}
+
+header {
+    display: grid;
+    grid-column: 1 / span 3;
+}
+
+nav {
+    display: grid;
+    grid-column: 1 / span 3;
+}
+
+main {
+    display: grid;
+    grid-column: 2;
 }
