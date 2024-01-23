@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    background-color: #121212;
+    color: aliceblue;
+}
+
+#index h1 {
+    color: red;
+}
+
+#sociedad h1 {
+    color: blue;
+}
+
+#internacional h1 {
+    color: green;
+}
+
+.cursiva {
+    font-style: italic;
+}
+
+article {
+    border: 2px purple dashed;
+    margin: 10px;
+    padding: 20px;
+}
+
+article h2 {
+    text-align: center;
+}
