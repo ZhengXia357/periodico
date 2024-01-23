@@ -28,6 +28,10 @@
     color: rgb(248, 150, 69);
 }
 
+#tecnologia h1 {
+    color: rgb(46, 202, 150);
+}
+
 .cursiva {
     font-style: italic;
 }
