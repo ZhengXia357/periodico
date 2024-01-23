@@ -16,6 +16,10 @@
     color: green;
 }
 
+#economia h1 {
+    color: darkturquoise;
+}
+
 .cursiva {
     font-style: italic;
 }
